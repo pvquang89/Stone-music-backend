@@ -9,10 +9,8 @@ namespace stone_music_backend.Models
 {
     public class TrackGenre
     {
-        [Required]
-        public string TrackGenreId { get; set; }
-        [MaxLength(50)]
-        public string TrackGenreName { get; set; }
+        public string sTrackGenreId { get; set; }
+        public string sTrackGenreName { get; set; }
 
     }
 }

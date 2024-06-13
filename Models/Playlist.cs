@@ -10,17 +10,15 @@ namespace stone_music_backend.Models
     public class Playlist
     {
         
-        [Required]
-        public string PlaylistId { get; set ;}
-        [Required]
-        public string PlaylistName { get; set ;}
+        public string sPlaylistId { get; set; }
+        public string sPlaylistName { get; set; }
+        public string? sDescription { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public bool bIsPrivate { get; set; }
 
-        public string? Description { get; set ;}
-        public DateTime CreateAt { get; set ;}
-        [Required]
-        public bool IsPrivate { get; set ;}
         //FK
-        public string UserId { get; set; }
+        public string sUserId { get; set; }
+        public string sPlaylistGenreId { get; set; }
 
     }
 }

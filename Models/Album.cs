@@ -9,11 +9,11 @@ namespace stone_music_backend.Models
 {
     public class Album
     {
-       public string sAlbumId { get; set; }
+        public string sAlbumId { get; set; }
         public string sAlbumName { get; set; }
         public string? sDescription { get; set; }
         public DateTime CreatedAt { get; set; }
-        
+
         //FK
         public string sUserId { get; set; }
         public string sAlbumGenreId { get; set; }

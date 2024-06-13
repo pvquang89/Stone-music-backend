@@ -7,16 +7,19 @@ namespace stone_music_backend.Models
 {
     public class Track
     {
-        public string TrackId{ get; set; }
-        public string TrackName{ get; set; }
-        public string UserId{ get; set; }
-        public string AblumId{ get; set; }
-        public string? Description{ get; set; }
-        public string Thumbnail{ get; set; }
-        public string? Hashtag{ get; set; }
-        public DateTime CreateAt{ get; set; }
-        public string GenreId{ get; set; }
-        public bool IsPrivate{ get; set; }
+        public string sTrackId { get; set; }
+        public string sTrackName { get; set; }
+        public string? sDescription { get; set; }
+        public string sThumbnail { get; set; }
+        public string sSource { get; set; }
+        public string? sHashtag { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public bool bIsPrivate { get; set; }
+
+        //FK
+        public string sAlbumId { get; set; }
+        public string sUserId { get; set; }
+        public string sTrackGenreId { get; set; }
 
 
 

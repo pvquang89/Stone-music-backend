@@ -7,8 +7,8 @@ namespace stone_music_backend.Models
 {
     public class AlbumGenre
     {
-        public string AlbumGenreId { get; set; }
-        public string AlbumGenreName { get; set; }
+        public string sAlbumGenreId { get; set; }
+        public string sAlbumGenreName { get; set; }
 
     }
 }

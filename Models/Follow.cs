@@ -7,8 +7,8 @@ namespace stone_music_backend.Models
 {
     public class Follow
     {
-        public string FollowerId{ get; set; }
-        public string TrackedUserId{ get; set; }
+        public string sUserId { get; set; }
+        public string sTrackedPersonId { get; set; }
 
     }
 }

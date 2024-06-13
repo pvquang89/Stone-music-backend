@@ -7,8 +7,8 @@ namespace stone_music_backend.Models
 {
     public class Like
     {
-        public string UserId{ get; set; }
-        public string TrackId{ get; set; }
+        public string sUserId { get; set; }
+        public string sTrackId { get; set; }
 
     }
 }

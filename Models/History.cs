@@ -7,11 +7,12 @@ namespace stone_music_backend.Models
 {
     public class History
     {
-        public string HistoryId { get; set; }
-        public string UserId { get; set; }
-        public string TrackId { get; set; }
-        public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; }
+        public string sHistoryId { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        //FK
+        public string sUserId { get; set; }
+        public string sTrackId { get; set; }
 
     }
 }
