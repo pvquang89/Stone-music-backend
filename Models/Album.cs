@@ -9,17 +9,14 @@ namespace stone_music_backend.Models
 {
     public class Album
     {
-        [Required]
-        public string AlbumId{ get; set; }
-        [MaxLength(100)]
-        [Required]
-        public string AlbumName{ get; set; }
-        [MaxLength(50)]
-        public string Description{ get;set;}
-        [Required]
-        public DateTime CreateAt { get; set; }
-        //FK...
-        public string UserId{ get; set; }
+       public string sAlbumId { get; set; }
+        public string sAlbumName { get; set; }
+        public string? sDescription { get; set; }
+        public DateTime CreatedAt { get; set; }
+        
+        //FK
+        public string sUserId { get; set; }
+        public string sAlbumGenreId { get; set; }
 
     }
 }
